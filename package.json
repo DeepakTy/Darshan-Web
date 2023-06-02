@@ -108,7 +108,7 @@
 		"sass": "^1.43.2"
 	},
 	"scripts": {
-		"start": "react-app-rewired start",
+		"start": "react-scripts --openssl-legacy-provider start",
 		"build": "react-app-rewired build",
 		"serve": "serve -s build",
 		"test": "react-scripts test --env=jsdom",
