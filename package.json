@@ -108,9 +108,10 @@
 		"sass": "^1.43.2"
 	},
 	"scripts": {
-		"start": "react-scripts --openssl-legacy-provider start",
-		"build": "react-scripts --openssl-legacy-provider build",
-		"test": "react-scripts test",
+		"start": "react-app-rewired start",
+		"build": "react-app-rewired build",
+		"serve": "serve -s build",
+		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
